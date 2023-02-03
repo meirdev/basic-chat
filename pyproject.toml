@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "basic-chat"
+version = "0.1.0"
+description = ""
+authors = ["meirdev <maornet@gmail.com>"]
+readme = "README.md"
+packages = [{include = "basic_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.89.1"
+uvicorn = "^0.20.0"
+websockets = "^10.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
